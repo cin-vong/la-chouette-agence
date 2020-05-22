@@ -362,6 +362,35 @@ a:hover {
     z-index: 2;
 }
 
+/* Correction */
+
+.font-size1{
+    font-family: helvetica;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.font-size2{
+    font-size: 12px;
+}
+
+figure{
+    margin: 0;
+}
+
+figcaption{
+    font-size: 16px;
+    color: black;
+}
+
+.bloc-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
